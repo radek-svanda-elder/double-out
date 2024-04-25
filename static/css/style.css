@@ -16,13 +16,13 @@ input[type="text"], input[type="password"], input[type="email"], select {
 button {
     background-color: #4CAF50;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 8px;
+    /* padding: 14px 20px; */
+    margin: 4px 4px;
     border: none;
     cursor: pointer;
     font-size: x-large;
 
-    height: 80px;
+    height: 70px;
     width: 80px;
 }
 
@@ -31,4 +31,5 @@ button {
     border: none;
     font-size: x-large;
     width: 100%;
+    line-height: 1.5em;
 }

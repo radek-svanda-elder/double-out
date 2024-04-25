@@ -41,9 +41,69 @@ const checkOuts = [
     { score:  38, next: [ "D19", "6, D16", "2, D18", "14, D12", "18, D10" ] },
     { score:  39, next: [ "7, D16", "3, D18", "15, D12", "19, D10" ] },
     { score:  40, next: [ "D20" ] },
+    
+    { score:  41, next: [ "9,D16", "1,D20", "5,D18", "17,D12" ] },
+    { score:  42, next: [ "10,D16 (best)", "6,D18", "2,D20", "18,D12" ] },
+    { score:  43, next: [ "11,D16", "7,D18", "3,D20", "19,D12" ] },
+    { score:  44, next: [ "12,D16", "8,D18", "4,D20", "20,D12" ] },
+    { score:  45, next: [ "13,D16", "9,D18", "5,D20" ] },
+    { score:  46, next: [ "14,D16", "10,D18 (best)", "6,D20" ] },
+    { score:  47, next: [ "15,D16", "7,D20", "11,D18" ] },
+    { score:  48, next: [ "16,D16 (best)", "8,D20", "12,D18" ] },
+    { score:  49, next: [ "17,D16", "9,D20", "13,D18" ]},
+    { score:  50, next: [ "18,D16", "10,D20", "14,D18", "DB (single dart only)" ]},
 
+    { score:  51, next: [ "19,D16", "11,D20", "15,D18" ]},
+    { score:  52, next: [ "20,D16", "12,D20", "T12,D8", "16,D18" ]},
+    { score:  53, next: [ "13,D20", "17,D18" ]},
+    { score:  54, next: [ "14,D20", "18,D18" ]},
+    { score:  55, next: [ "15,D20", "19,D18" ]},
+    { score:  56, next: [ "16,D20", "20,D18" ]},
+    { score:  57, next: [ "17,D20", "O/B,D16 (not recommended)" ]},
+    { score:  58, next: [ "18,D20" ]},
+    { score:  59, next: [ "19,D20" ]},
+    
     { score: 60, next: [ "20, D20" ] },
-    { score: 61, next: [ "O/B, D18", "T15, D8", "15, 6, D20", "T7, D20", "11, B", "T11, D14" ] }
+    { score: 61, next: [ "O/B, D18", "T15, D8", "15, 6, D20", "T7, D20", 
+                            "11, B (2 darts left)", 
+                            "T11, D14 (2 darts left)" ] },
+    { score: 62, next: [ "T10,D16", "T14,D10", "T18,D4", "12,B (2 darts left)", "T12,D13 (2 darts left)", ] },
+    { score: 63, next: [ "T13,D12", "T17,D6", "T9,D18", "13,B (2 darts left)"] },
+    { score: 64, next: [ "T16,D8", "T8,D20", "14,B (2 darts left)", 
+    "T14,D11 (2 darts left)" ] },
+    { score: 65, next: [ 
+        "O/B,D20",
+        "T15,D10",
+        "15,B used with 2 darts left",
+        "T11,D16",
+        "T19,D4",
+    ] },
+    { score: 66, next: [
+        "T10,D18",
+        "B,D8",
+        "T14,D12",
+        "16,B Used with 2 darts left",
+        "T16,D9 2 dart option when opponent on a finish",
+    ]},
+    { score: 67, next: [
+        "T17,D8",
+        "17,B Used with 2 darts left",
+        "T9,D20 For folks who insist on D20. Least desirable route",
+    ]},
+    {score: 68, next: [
+        "T20,D4",
+        "T16,D10",
+        "T12,D16",
+        "18,B Used with 2 darts left",
+        "T18,D7 2 dart option when opponent on a finish",
+    ]},
+    {score: 69, next: [
+        "T15,D12",
+        "T19,D6",
+        "T11,D18",
+        "19,B Used with 2 darts left",
+    ]},
+
 ]
 
 window.onload = function() {

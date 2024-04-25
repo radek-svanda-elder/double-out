@@ -76,4 +76,6 @@ window.onload = function() {
     for (let i = 1; i <= 20; i++) {
         addButton(i);
     }
+
+    addButton(25);
 };

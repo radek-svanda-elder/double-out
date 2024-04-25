@@ -104,6 +104,119 @@ const checkOuts = [
         "19,B Used with 2 darts left",
     ]},
 
+    {score: 70, next: [
+        "T18,D8",
+        "T10,D20",
+        "20,B Used with 2 darts left only and opponent on a finish",
+        "T20,D5 2 dart option when opponent on a finish",
+    ]},
+    {score: 71, next: [
+        "T13,D16",
+        "T17,D10",
+    ]},
+    {score: 72, next: [
+        "T12,D18",
+        "T16,D12",
+        "T20,D6",
+    ]},
+    {score: 73, next: [
+        "T19,D8",
+        "T11,D20 (not recommended)",
+    ]},
+    {score: 74, next: [
+        "T14,D16",
+        "T18,D10",
+    ]},
+    {score: 75, next: [
+        "T17,D12",
+        "T13,D18 Not recommended",
+        "O/B,B Used with 2 darts left",
+        ]},
+    {score: 76, next: [
+        "T20,D8",
+        "T12,D20 Not recommended",
+        "D18,D20 Used when 2 darts left"
+    ]},
+    {score: 77, next: [
+        "T19,D10",
+        "T15,D16 Not recommended",
+    ]},
+    {score: 78, next: [
+        "T18,D12",
+        "T14,D18 Not recommended",
+    ]},
+    {score: 79, next: [
+        "T19,D11 Unorthodox",
+        "19,20,D20",
+        "T13,D20 Not recommended",
+    ]},
+
+    {score: 80, next: [
+        "T20,D10",
+        "T16,D16 (not recommended)",
+        "D20,D20 (2 darts left)",
+    ]},
+    {score: 81, next: [
+        "T19,D12",
+        "19,T12,D13 Used when opponent on a finish.",
+        "19,12,B Used when opponent on a finish",
+        "T15,D18",
+        "15,T16,D9 Used when opponent on a finish",
+        "15,16,B Used when opponent on a finish",
+        "O/B,16,D20 3 dart finish when opponent not on finish.",
+    ]},
+    {score: 82, next: [
+        "B,D16",
+        "O/B,17,D20",
+        "T14,D20",
+        "14,18,B",
+        "14,T18,D7",
+    ]},
+    {score: 83, next: [
+        "T17,D16",
+        "17,T16,D9",
+        "17,16,B",
+    ]},
+    {score: 84, next: [
+        "T20,D12",
+        "20,T14,D11",
+        "20,14,B",
+        "20,T16,D8 Used only when opponent not on a finish",
+        "T16,D18",
+        "16,T18,D7",
+        "16,18,B",
+        "16,T20,D4 Used only when opponent not on a finish",
+    ]},
+    {score: 85, next: [
+        "T15,D20",
+        "15,T20,D5",
+        "15,20,B",
+        "T19,D14",
+        "19,T16,D9",
+        "19,16,B",
+    ]},
+    {score: 86, next: [
+        "T18,D16",
+        "18,T18,D7",
+        "18,18,B",
+    ]},
+    {score: 87, next: [
+        "T17,D18",
+        "17,T20,D5",
+        "17,20,B",
+    ]},
+    {score: 88, next: [
+        "T20,D14",
+        "20,T18,D7",
+        "20,18,B",
+        "T16,D20 Used only when opponent not on a finish.",
+    ]},
+    {score: 89, next: [
+        "T19,D16",
+        "19,T20,D5",
+        "19,20,B",
+    ]},
+
 ]
 
 window.onload = function() {

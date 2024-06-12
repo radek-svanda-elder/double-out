@@ -4,14 +4,17 @@
     <title>Double Out</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <script type="text/javascript" src="js/script.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css?r=2">
+    <link rel="stylesheet" type="text/css" href="css/style.css?r=5">
 </head>
 <body>
     <!-- <h1>Double out counter</h1> -->
 
     <form>
         <h2>Score</h2>
-        <input type="number" id="score">
+        <div id="current-score">
+            <input type="number" id="score">
+            <button type="button" id="set">&rArr;</button>
+        </div>
 
         <h2>Next</h2>
         <div id="next"></div>

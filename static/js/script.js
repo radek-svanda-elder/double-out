@@ -20,6 +20,7 @@ window.onload = function() {
             return;
         }
         next.innerHTML = out.next.join("<br>");
+        buttonState();
     };
 
     const area = document.getElementById("buttons");
@@ -27,6 +28,7 @@ window.onload = function() {
     const addButton = (i) => {
         const button = document.createElement("button");
         button.innerHTML = i;
+        button.className = "numberButton";
         button.onclick = function(evt) {
             evt.preventDefault();
             const score = document.getElementById("score");
@@ -36,9 +38,18 @@ window.onload = function() {
         area.appendChild(button);
     }
 
+    const buttonState = () => {
+        const buttons = document.getElementsByClassName("numberButton")
+        for (let i = 0; i < buttons.length; i++) {
+            buttons[i].disabled = (score.value === "" ? "disabled" : "");
+        }
+    }
+
     for (let i = 1; i <= 20; i++) {
         addButton(i);
     }
 
     addButton(25);
+
+    buttonState();
 };

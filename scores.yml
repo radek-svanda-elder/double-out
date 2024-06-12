@@ -1,0 +1,394 @@
+2:
+  - D1
+3:
+  - 1,D1
+4:
+  - D2
+5:
+  - 1,D2 Recommended
+  - 3,D1
+6:
+  - D3
+  - 2,D2
+7:
+  - 3,D2
+8:
+  - D4
+9:
+  - 1,D4
+
+10:
+  - D5
+  - 2,D4
+11:
+  - 3,D4
+12:
+  - D6
+13:
+  - 5,D4
+14:
+  - D7
+  - 6,D4
+15:
+  - 7,D4
+  - 3,D6
+16:
+  - D8
+17:
+  - 1,D8
+  - 9,D4 Preferred route for new players. Miss either side of 9 and you don't bust
+18:
+  - D9
+  - 2,D8
+19:
+  - 3,D8 Most people go this way
+  - 11,D4 Some people use this route to avoid the possibility of busting on 19's
+
+20:
+  - D10
+21:
+  - 5,D8
+  - 13,D4
+  - 1,D10
+22:
+  - D11
+  - 6,D8
+  - 2,D10
+23:
+  - 7,D8
+  - 3,D10
+24:
+  - D12
+25:
+  - 9,D8
+  - 5,D10 Sometimes preferred by left handed players
+  - 1,D12
+  - 17,D4
+26:
+  - D13
+  - 10,D8
+  - 2,D12
+  - 6,D10
+27:
+  - 11,D8
+  - 3,D12 This gives a big target of 3 or 19
+  - 19,D4
+  - 7,D10
+28:
+  - D14
+29:
+  - 13,D8
+  - 5,D12
+  - 9,D10
+
+30:
+  - D15
+  - 10,D10
+  - 14,D8
+  - 6 D12
+31:
+  - 15,D8
+  - 7,D12
+  - 11,D10
+32:
+  - D16
+33:
+  - 1,D16
+  - 17,D8
+  - 9,D12
+  - 13 D10
+34:
+  - D17
+  - 2,D16
+  - 10,D12
+  - 14,D10
+35:
+  - 3,D16
+  - 19,D8
+  - 11,D12
+  - 15,D10
+36:
+  - D18
+37:
+  - 5,D16
+  - 1,D18
+  - 13,D12
+  - 17,D10
+38:
+  - D19
+  - 6,D16
+  - 2,D18
+  - 14,D12
+  - 18,D10
+39:
+  - 7,D16
+  - 3,D18
+  - 15,D12
+  - 19,D10
+
+40:
+  - D20
+41:
+  - 9,D16
+  - 1,D20
+  - 5,D18
+  - 17,D12
+42:
+  - 10,D16 Better to shoot at the 10/6 wedge as either leaves a preferred double
+  - 2,D20
+  - 6,D18
+  - 18,D12
+43:
+  - 3,D20
+  - 11,D16
+  - 7,D18
+  - 19,D12
+44:
+  - 12,D16
+  - 4,D20
+  - 8,D18
+  - 20,D12
+45:
+  - 13,D16
+  - 5,D20
+  - 9,D18
+46:
+  - 14,D16 Better to shoot at the 10/6 wedge as either leaves a preferred double
+  - 6,D20
+  - 10,D18
+47:
+  - 15,D16
+  - 7,D20
+  - 11,D18
+48:
+  - 16,D16 Better to shoot at the 16/8 wedge as either leaves a preferred double
+  - 8,D20
+  - 12,D18
+49:
+  - 17,D16
+  - 9,D20
+  - 13,D18
+
+50:
+  - 18,D16
+  - 10,D20
+  - 14,D18
+  - DB (DB=Double Bull) Only with one dart remaining and opponent on a finish
+51:
+  - 19,D16
+  - 11,D20
+  - 15,D18
+52:
+  - 20,D16
+  - 12,D20
+  - T12,D8
+  - 16,D18
+53:
+  - 13,D20
+  - 17,D18
+54:
+  - 14,D20
+  - 18,D18
+55:
+  - 15,D20
+  - 19,D18
+56:
+  - 16,D20
+  - 20,D18
+57:
+  - 17,D20
+  - O/B,D16 (O/B=Outer Bull). Not recommended
+58:
+  - 18,D20
+59:
+  - 19,D20
+
+60:
+  - 20,D20
+61:
+  - O/B,D18
+  - T15,D8
+  - 15,6,D20
+  - T7,D20 Good shot for people who prefer D20/D10
+  - 11,B Used with 2 darts left only and opponent on a finish
+  - T11,D14 Used with 2 darts left only and opponent on a finish
+62:
+  - T10,D16
+  - T14,D10
+  - T18,D4
+  - 12,B Used with 2 darts left only and opponent on a finish
+  - T12,D13 Used with 2 darts left only and opponent on a finish
+63:
+  - T13,D12
+  - T17, D6
+  - T9, D18
+  - 13,B Used with 2 darts left only and opponent on a finish
+64:
+  - T16,D8
+  - T8,D20
+  - 14,B Only if 2 darts remaining and opponent on a finish
+  - T14,D11 Only if 2 darts remaining and opponent on a finish
+65:
+  - O/B,D20
+  - T15,D10
+  - 15,B used with 2 darts left only and opponent on a finish
+  - T11,D16
+  - T19,D4
+66:
+  - T10,D18
+  - B,D8
+  - T14,D12
+  - 16,B Used with 2 darts left only and opponent on a finish
+  - T16,D9 2 dart option when opponent on a finish
+67:
+  - T17,D8
+  - 17,B Used with 2 darts left only and opponent on a finish
+  - T9,D20 For folks who insist on D20. Least desirable route
+68:
+  - T20,D4
+  - T16,D10
+  - T12,D16
+  - 18,B Used with 2 darts left only and opponent on a finish
+  - T18,D7 2 dart option when opponent on a finish
+69:
+  - T15,D12
+  - T19,D6
+  - T11,D18
+  - 19,B Used with 2 darts left only and opponent on a finish
+
+70:
+  - T18,D8
+  - T10,D20
+  - 20,B Used with 2 darts left only and opponent on a finish
+  - T20,D5 2 dart option when opponent on a finish
+71:
+  - T13,D16
+  - T17,D10
+72:
+  - T12,D18
+  - T16,D12
+  - T20,D6
+73:
+  - T19,D8
+  - T11,D20 Not recommended as 11 leaves 62. Try to leave 60 or less with 2 darts.
+74:
+  - T14,D16
+  - T18,D10
+75:
+  - T17,D12
+  - T13,D18 Not recommended as 13 leaves 62. Try to leave 60 or less with 2 darts
+  - O/B,B Used with 2 darts left only and opponent on a finish
+76:
+  - T20,D8
+  - T12,D20 Not recommended as 12 leaves 64. Try to leave 60 or less with 2 darts.
+  - D18,D20 Used when the opponent is on a finish and with 2 darts left
+77:
+  - T19,D10
+  - T15,D16 Not recommended as single 15 leaves 62. Try to leave 60 or less with 2 darts
+78:
+  - T18,D12
+  - T14,D18 Not recommended as single 14 leaves 64. Try to leave 60 or less with 2 darts
+79:
+  - T19,D11 Sometimes unorthodox doubles are the best otpion
+  - 19,20,D20 Reason why this is the best way - single 19 still leaves a 2 dart out
+  - T13,D20 Not recommended because 13 leaves 66. Try to leave 60 or less with 2 darts
+
+80:
+  - T20,D10
+  - D20,D20 Used when the opponent is on a finish and with 2 darts left
+  - T16,D16 Not recommended as single 16 leaves 64. Try to leave 60 or less with 2 darts
+81:
+  - T19,D12
+  - 19,T12,D13 Used when opponent on a finish.
+  - 19,12,B Used when opponent on a finish
+  - T15,D18
+  - 15,T16,D9 Used when opponent on a finish
+  - 15,16,B Used when opponent on a finish
+  - O/B,16,D20 3 dart finish when opponent not on finish.
+82:
+  - B,D16
+  - O/B,17,D20
+  - T14,D20
+  - 14,18,B
+  - 14,T18,D7
+83:
+  - T17,D16
+  - 17,T16,D9
+  - 17,16,B
+84:
+  - T20,D12
+  - 20,T14,D11
+  - 20,14,B
+  - 20,T16,D8 Used only when opponent not on a finish
+  - T16,D18
+  - 16,T18,D7
+  - 16,18,B
+  - 16,T20,D4 Used only when opponent not on a finish
+85:
+  - T15,D20
+  - 15,T20,D5
+  - 15,20,B
+  - T19,D14
+  - 19,T16,D9
+  - 19,16,B
+86:
+  - T18,D16
+  - 18,T18,D7
+  - 18,18,B
+87:
+  - T17,D18
+  - 17,T20,D5
+  - 17,20,B
+88:
+  - T20,D14
+  - 20,T18,D7
+  - 20,18,B
+  - T16,D20 Used only when opponent not on a finish.
+89:
+  - T19,D16
+  - 19,T20,D5
+  - 19,20,B
+
+90:
+  - T20,D15 Used when in a must hit situation
+  - 20,T20,D5
+  - 20,20,B
+  - DB,D20
+  - T18,D18 2 dart finish only.
+91:
+  - T17,D20
+  - 17,T14,D16
+  - 17,T18,D10
+  - O/B,T16,D9 Use this route on 91-95 only when opponent
+  - O/B,16,B is on a near certain finish. Better to throw
+  - B,9,D16 at the bull than lose setting up a double
+  - B,1,D20
+  - B,5,D18
+92:
+  - T20,D16
+  - O/B,T17,D8
+  - O/B,17,B
+  - B,10,D16
+  - B,2,D20
+  - B,6,D18
+93:
+  - T19,D18
+  - O/B,T18,D7
+  - O/B,18,B
+  - B,3,D20
+  - B,11,D16
+  - B,7,D18
+94:
+  - T18,D20
+  - O/B,T19,D6
+  - O/B,19,B
+  - B,12,D16
+  - B,4,D20
+  - B,8,D18
+95:
+  - T19,D19
+  - O/B,T20,D5
+  - O/B,20,B
+  - B,13,D16
+  - B,5,D20
+  - B,9,D18
